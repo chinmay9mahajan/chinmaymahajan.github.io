@@ -1535,14 +1535,25 @@ section {
         height: 80px;
         font-size: 2rem;
     }
-    .headshot-image {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
-This gives me this result
+    .about-image {
+    width: 160px;         /* Or adjust as needed */
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;       /* Center the image */
+}
+
+.headshot-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: contain;  /* or 'cover' if preferred */
+    background: #222;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    display: block;
+}
+
 
 }
 
