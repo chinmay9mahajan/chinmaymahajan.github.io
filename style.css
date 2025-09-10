@@ -1535,12 +1535,13 @@ section {
         height: 80px;
         font-size: 2rem;
     }
-}
-
-.headshot-image {
+    .headshot-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
+
+}
+
